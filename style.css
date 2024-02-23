@@ -1,0 +1,405 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Roboto, sans-serif;
+}
+
+a {
+    text-decoration: none !important;
+}
+
+/* header section */
+.header {
+    /* border: 2px solid saddlebrown; */
+    display: flex;
+    justify-content: space-between;
+    padding: 15px;
+    border-bottom: 1px solid #4A4A4A;
+}
+
+.header-item a span {
+    /* border: 2px solid red; */
+    position: absolute;
+    left: 90px;
+    color: #4A4A4A;
+    font-family: Roboto, sans-serif;
+    font-size: 20px;
+    font-weight: 400;
+}
+
+.header-item:nth-child(2) {
+    display: flex;
+    gap: 10px;
+}
+
+.item2:nth-child(2) img {
+    border-radius: 100%;
+}
+
+/* below header */
+
+.belowHeader {
+    background-color: #ff7700;
+    color: #fff;
+    padding: 6px 18px 6px 6px;
+    font-size: .75em;
+    font-weight: 600;
+    font-family: Roboto, sans-serif;
+}
+
+.belowHeader > a {
+    color: #fff;
+    text-decoration: underline !important;
+}
+
+.hero-section {
+    display: flex;
+}
+
+.hero-item {
+    width: 50%;
+    height: 350px;
+    word-spacing: 2px;
+}
+
+.hero-item:nth-child(1){
+    text-align: justify;
+    padding: 63px 63px;
+}
+
+.hero-item:nth-child(1) h2{
+    font-size: 44px;
+    font-weight: 400;
+    word-spacing: 2px;
+}
+
+.hero-item:nth-child(1) p{
+    font-size: 20px;
+    font-weight: 400;
+    margin-top: 36px;
+    line-height: 27px;
+}
+
+.hero-item:nth-child(2) {
+    background-image: url('images/hero_academy.jpg');
+    background-size: cover;
+}
+
+/* academy courses */
+
+.courses{
+    padding: 20px ;
+    padding-bottom: 30px;
+    background-color: #4285F4;
+}
+
+.parent-outline{
+    display: flex;
+    margin-left: 30px;
+    flex-wrap: wrap;
+}
+
+.outline1{
+    border-radius: 2px;
+    width: 275px;
+    height: 440px;
+    margin-left: 15px;
+    margin-top: 18px;
+    padding: 15px 15px;
+    background-color: #fff;
+    
+}
+
+.outline2{
+    border-radius: 2px;
+    width: 275px;
+    height: 440px;
+    margin-left: 15px;
+    margin-top: 18px;
+    padding: 15px 15px;
+    background-color: #fff;
+}
+
+.outline3{
+    border-radius: 2px;
+    width: 275px;
+    height: 440px;
+    margin-left: 15px;
+    margin-top: 18px;
+    padding: 15px 15px;
+    background-color: #fff;
+}
+.outline4{
+    border-radius: 2px;
+    width: 275px;
+    height: 440px;
+    margin-left: 15px;
+    margin-top: 18px;
+    padding: 15px 15px;
+    background-color: #fff;
+}
+.outline5{
+    border-radius: 2px;
+    width: 275px;
+    height: 440px;
+    margin-left: 15px;
+    margin-top: 18px;
+    padding: 15px 15px;
+    background-color: #fff;
+}
+.outline6{
+    border-radius: 2px;
+    width: 275px;
+    height: 440px;
+    margin-left: 15px;
+    margin-top: 18px;
+    padding: 15px 15px;
+    background-color: #fff;
+}
+
+.outline1 a{
+    font-size: 24px;
+    font-weight: 700;
+    color: black;
+}
+
+.outline1 p{
+    font-size: 16px;
+    font-weight: 400;
+    margin-top: 35px;
+    margin-bottom: 67px;
+    line-height: 23px;
+}
+
+.outline2 a{
+    font-size: 24px;
+    font-weight: 700;
+    color: black;
+}
+
+.outline2 p{
+    font-size: 16px;
+    font-weight: 400;
+    margin-top: 35px;
+    margin-bottom: 88px;
+    line-height: 23px;
+}
+
+.outline3 a{
+    font-size: 24px;
+    font-weight: 700;
+    color: black;
+}
+
+.outline3 p{
+    font-size: 16px;
+    font-weight: 400;
+    margin-top: 35px;
+    margin-bottom: 66px;
+    line-height: 23px;
+}
+
+.outline4 a{
+    font-size: 24px;
+    font-weight: 700;
+    color: black;
+}
+
+.outline4 p{
+    font-size: 16px;
+    font-weight: 400;
+    margin-top: 35px;
+    margin-bottom: 22px;
+    line-height: 23px;
+}
+
+.outline5 a{
+    font-size: 24px;
+    font-weight: 700;
+    color: black;
+}
+
+.outline5 p{
+    font-size: 16px;
+    font-weight: 400;
+    margin-top: 35px;
+    margin-bottom: 110px;
+    line-height: 23px;
+}
+
+.outline6 a{
+    font-size: 24px;
+    font-weight: 700;
+    color: black;
+}
+
+.outline6 p{
+    font-size: 16px;
+    font-weight: 400;
+    margin-top: 35px;
+    margin-bottom: 85px;
+    line-height: 23px;
+}
+
+.parent-outline span{
+    font-size: 40px;
+    margin-left: 196px;
+    color: #FF7700;
+}
+
+.outline img{
+    margin-bottom: 10px;
+}
+
+.courses h2{
+    font-size: 30px;
+    font-weight: 500;
+    margin-top: 20px;
+    margin-left: 40px;
+    color: #fff;
+}
+
+/* meet the instructors */
+
+.instructors{
+    padding: 30px 50px;
+}
+
+.instructors h2{
+    font-size: 30px;
+    font-weight: 400;
+    margin-top: 10px;
+    margin-bottom: 40px;
+}
+
+.inst{
+    background-color: #F2F2F2;
+    width: 100%;
+    height: 210px;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 40px;
+    box-shadow: 1px 2px 5px 0px #C8C8C8;
+}
+
+.inside{
+    padding: 10px 20px;
+    margin-left: -20px;
+}
+
+.inside h3{
+    font-size: 20px;
+    font-weight: 400;
+    padding: 15px;
+    border-bottom: 1px solid rgb(197, 186, 186);
+    width: 953px;
+}
+
+.inside p{
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 23px;
+    padding: 20px;
+}
+
+/* analytic mini course */
+
+.analytic{
+    padding: 2px 50px;
+    margin-top: -30px;
+    margin-bottom: 50px;
+}
+
+.analytic h2{
+    font-size: 30px;
+    font-weight: 400;
+    margin-bottom: 20px;
+}
+
+.analytic p{
+    font-size: 16px;
+    font-weight: 400;
+    margin-bottom: 20px;
+}
+
+.ana-main{
+    display: flex;
+    gap: 15px;
+}
+
+.ana-box{
+    background-color: #F2F2F2;
+    width: 280px;
+    height: 160px;
+    text-align: center;
+    padding: 30px 35px;
+    box-shadow: 1px 2px 5px 0px #C8C8C8;
+}
+
+.ana-box img{
+    width: 50px;
+}
+
+.ana-box h3{
+    font-size: 16px;
+    font-weight: 400;
+}
+
+/* additional resources */
+
+.footer{
+    background-color: #F2F2F2;
+}
+
+.footer h3{
+    font-size: 20px;
+    font-weight: 400;
+    padding: 30px 0px 20px 30px;
+    margin-top: 20px;
+    margin-left: 20px;
+}
+
+.footer-main{
+    display: flex;
+    padding: 10px 50px;
+    border-top: 1px solid rgb(175, 158, 158);
+    width: 100%;
+}
+
+.footer-box{
+    width: 250px;
+    height: 170px;
+    text-align: center;
+    padding: 30px 35px;
+}
+
+.footer-box a{
+    color: black;
+}
+
+.footer-box img{
+    width: 50px;
+    margin-bottom: 10px;
+}
+
+/* end */
+
+.end{
+    padding: 30px;
+    display: flex;
+    margin-left: 650px;
+    font-size: 13px;
+    font-weight: 500;
+    color: #4A4A4A;
+    justify-content: space-between;
+}
+
+.end a{
+    color: #4A4A4A;
+}
+
+.end a:hover{
+    background-color: #ececec;
+    cursor: pointer;
+}
